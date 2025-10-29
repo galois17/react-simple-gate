@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx", // Use the modern JSX transform
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // 
+    "declaration": true, // Generates .d.ts files (for types)
+    "sourceMap": true, // Generates .map files (for debugging)
+    "outDir": "dist" // This is where tsc *would* output, but tsup handles it
+  },
+  "include": ["src"], // Only compile files in the src folder
+  "exclude": ["node_modules", "dist"]
+}

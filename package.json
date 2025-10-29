@@ -1,0 +1,39 @@
+{
+  "name": "react-static-gate",
+  "version": "1.0.0",
+  "description": "A simple access gate for React and Next.js apps.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "auth",
+    "access",
+    "gate"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "lucide-react": ">=0.300.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "lucide-react": "^0.417.0",
+    "postcss": "^8.4.40",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.7",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}
