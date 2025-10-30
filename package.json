@@ -18,7 +18,8 @@
     "./style.css": "./dist/index.css"
   },
   "scripts": {
-    "build": "tsup src/index.tsx src/index.css --format cjs,esm --dts"
+    "build": "tsup src/index.tsx src/index.css --format cjs,esm --dts",
+    "test": "vitest run"
   },
   "keywords": [
     "react",
@@ -37,14 +38,19 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^5.1.0",
     "autoprefixer": "^10.4.21",
+    "jsdom": "^27.0.1",
     "lucide-react": "^0.417.0",
     "postcss": "^8.5.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss": "^4.1.16",
     "tsup": "^8.2.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^3.2.4"
   }
 }
