@@ -1,5 +1,6 @@
 React Simple Gatereact-simple-gate is a small, flexible React component library for protecting pages or components behind an access code-- obviously, not very secure.
 
+![Demo Screenshot1](./assets/react-simple-gate-screenshot1.png)
 
 ## Wrap Your Protected Routes
 In your Next.js app, wrap your protected routes using a Route Group layout.
