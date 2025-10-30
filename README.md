@@ -23,7 +23,7 @@ export default function ProtectedLayout({
   return (
     // Wrap your layout
     <AccessCodeProvider
-      accessCode="YOUR_SECRET_CODE"
+      accessCode={process.env.NEXT_PUBLIC_ACCESS_CODE!}
       expirationHours={8}
     >
       {children}
